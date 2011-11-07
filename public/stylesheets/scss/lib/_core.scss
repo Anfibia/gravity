@@ -10,7 +10,7 @@
 //Base Modules
 
 @import "settings";
-@import "reset";
+@import "normalize";
 
 //Mixins
 
@@ -23,7 +23,7 @@
 
 //Layout
 
-@import "layout/grid_static"; 
+@import "layout/grid_responsive"; 
 //use responsive for fluid grids
 //@import "layout/grid_fluid"; 
 
