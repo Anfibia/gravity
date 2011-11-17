@@ -1,6 +1,5 @@
 #Gravity Framework
 
-Creative Commons (cc) Attribution 3.0
 http://GravityFramework.com
 
 Gravity is a framework for building better responsive websites. It's modular nature means you can choose to use as little or as much as you like. It will help you rapidly prototype rock solid websites that work in all web browsers. 
@@ -55,6 +54,9 @@ To start watching your SCSS files, run the following rake task
 	rake watch
 
 =====================
+
+License: MIT
+http://www.opensource.org/licenses/mit-license.php
 
 
 
