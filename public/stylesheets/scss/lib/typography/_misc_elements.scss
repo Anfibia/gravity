@@ -36,13 +36,14 @@ blockquote {
 	display: block;
 	font-weight: bold;
 	border-left: 4px solid #eeeeee;
-	padding: ($baseline*2) $baseline;
+	padding: ($baseline/2) $baseline/2;
 	font-weight: bold;
 	font-size: 30px;
+	font-size:3.0rem;
 	font-family: serif;
 	font-style: italic;
-	color: $grayDark;
-	line-height: 30px;
+	color: $gray;
+	line-height: 1.35;
 	margin: $baseline 0;
 }
 
@@ -76,9 +77,12 @@ figcaption {
 }
 
 small {
-	font-size: $font-size - 3;
+	font-size: $font-size - 2;
+	font-family:$sans;
 }
 
 strong {
 	font-weight: bold;
 }
+
+hr {height:5px;}

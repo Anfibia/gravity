@@ -5,25 +5,28 @@ $columns: 16;
 
 $baseline: 20px;
 
-$sans: Helvetica, Arial, sans serif;
-$serif: Georgia, serif;
+$sans: Helvetica, Arial, sans-serif;
+$serif: “Hoefler Text”, Palatino, “Palatino Linotype”, serif;
 $mono: "Andale Mono WT", Monaco, "Courier New", Courier, monospace;
 
 $font-size: 14px;
+
+// Links
 $links: #0069d6;
-$linksHover: darken($links, 10);
+$links-hover: darken($links, 10%);
+$links-focus: darken($links, 10%);
 
 // Grays
 $black: black;
-$grayDark: lighten($black, 20%);
+$gray-dark: lighten($black, 20%);
 $gray: lighten($black, 40%);
-$grayLight: lighten($black, 60%);
-$grayLighter: lighten($black, 80%);
+$gray-light: lighten($black, 60%);
+$gray-lighter: lighten($black, 80%);
 $white: white;
 
 // Accent Colors
 $blue: #049cdb;
-$blueDark: #0064cd;
+$blue-dark: #0064cd;
 $green: #46a546;
 $red: #9d261d;
 $yellow: #ffc40d;

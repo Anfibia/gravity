@@ -4,8 +4,10 @@ div.error, div.notice, div.success, #flash_failure, #flash_success, #flash_notic
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
-	margin-bottom: 12px;
+	margin-bottom: 19px;
 	padding: 10px;
+	height:19px;
+	line-height:19px;
 }
 
 div.error, #flash_failure {

@@ -9,7 +9,7 @@
 //Base Modules
 
 @import "settings";
-@import "normalize";
+@import "reset";
 
 //Mixins
 
@@ -18,13 +18,14 @@
 //Typography
 
 @import "typography/elements";
+@import "typography/lists";
+@import "typography/misc_elements";
+@import "typography/links";
 @import "typography/headings";
 
 //Layout
 
 @import "layout/grid_responsive"; 
-//use responsive for fluid grids
-//@import "layout/grid_fluid"; 
 
 //The files below are helpers that can be removed if not required
 

@@ -12,16 +12,3 @@ p {
 img {
   margin-bottom: 10px;
 }
-
-a {
-  color: $links;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-@import "lists";
-@import "misc_elements";

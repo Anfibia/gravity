@@ -16,12 +16,11 @@ ul {
   margin-bottom: $baseline;
   list-style: disc;
   li {
-    margin-bottom: $baseline / 4;
+    margin-bottom: 0;
     margin-left: 14px;
 
     ul {
       margin-left: $baseline;
-      margin-top: $baseline / 2;
       margin-bottom: $baseline / 2;
     }
 
@@ -43,11 +42,11 @@ dl {
 
   dt {
     font-weight: bold;
-    margin-bottom: $baseline / 2;
+    margin-bottom:5px;
   }
 
   dd {
-    margin-bottom: $baseline / 2;
+    margin-bottom: 0;
   }
 
 }

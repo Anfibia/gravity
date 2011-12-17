@@ -8,14 +8,15 @@
     %script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
     %meta{:name => "viewport", :content => ""}
     %link{:rel => "stylesheet", :href => "public/stylesheets/css/style.css", :type => "text/css"}
+    %link{:href =>'http://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic', :rel =>'stylesheet', :type =>'text/css'}
 
   %body
     .container
-      %h1.center Gravity CSS Test
-      %section
+      %h1.center Gravity
+      %section.section-1
         %h3 Paragraphs
         .span-5
-          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          %p Gravity is a handcrafted, responsive SASS based framework for making better websites. If you like this then please share. You are free to use this code in any you wish. Now go make some websites!
       
           %pre
             %code This is a code block
@@ -24,7 +25,7 @@
           %p
             %b Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           %p
-            %a This is a line
+            %a Link Here
           %p
             %i Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -33,32 +34,33 @@
             %small Small text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           %q Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 	
-      %section
+      %section.section-2
         .span-6
-          %h1 Misc Elements
+          %h3 Misc Elements
           %p 
             %del Strike through
         .span-10
           %blockquote Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  styles. 
 
       %section
+        
+        %h3 Rails Helpers
 
         %div.error Error message
         %div.notice Notice
         %div.success Success message
 
-      %section
+      %section.section-3
         .span-5
-          %img{:src => "http://placehold.it/336x250"}
+          %img{:src => "http://placehold.it/300x200"}
 
         .span-6
-          %img{:src => "http://placehold.it/408x250"}
+          %img{:src => "http://placehold.it/300x200"}
 
         .span-5
-          %img{:src => "http://placehold.it/336x250"}
+          %img{:src => "http://placehold.it/300x200"}
 		
-      %section
-        %h3 Headings
+      %section.section-4
         .span-5
           %h1 Heading 1
           %h2 Heading 2
@@ -67,27 +69,21 @@
           %h5 Heading 5
           %h6 Heading 6
         .span-6
-          %h1 Lorem ipsum dolor sit amet
-          %h2 Lorem ipsum dolor sit amet
-          %h3 Lorem ipsum dolor sit amet
+          %h1 Lorem ipsum 
+          %h2 Lorem ipsum dolor
+          %h3 Lorem ipsum dolor
           %h4 Lorem ipsum dolor sit amet
           %h5 Lorem ipsum dolor sit amet
           %h6 Lorem ipsum dolor sit amet
         .span-5
-          %h1 Heading 1
-          %hr
-          %h2 Heading 2
-          %hr
-          %h3 Heading 3
-          %hr
-          %h4 Heading 4
-          %hr
-          %h5 Heading 5
-          %hr
-          %h6 Heading 6
-          %hr
+          %h1.serif Serif Heading
+          %h2.serif Heading 2
+          %h3.serif Heading 3
+          %h4.serif Heading 4
+          %h5.serif Serif
+          %h6.serif Heading 6
  		
-      %section
+      %section.section-5
         .span-6
           %h3 Forms
           %p Default forms. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -134,7 +130,7 @@
           %label Textarea
           %textarea
 	
-      %section
+      %section.section-6
         %h3 Lists
         .span-4
           %ul
@@ -179,7 +175,7 @@
                 %li Sub item in list
                 %li Another sub item
   	
-      %section
+      %section.section-7
         %h3 Tabular Data
         .span-16
           %table
@@ -206,8 +202,12 @@
                 %td Lorem ipsum
                 %td Lorem ipsum
 
-      %section
+      %section.section-8
         %h3 Buttons
         %a.button Submit
         %a.button.delete Delete
         %a.button.main Default button
+
+      %p.center 
+        Gravity Framework by 
+        %a{:href => "http://www.owainlewis.com"} Owain Lewis.

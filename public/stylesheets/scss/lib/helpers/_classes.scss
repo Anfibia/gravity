@@ -5,20 +5,34 @@ Avoid misc classes in markup wherever possible. These are mainly for mocking.
 */
 
 .wrap {
-  width: $width;
-  margin: 0 auto; }
+	width: $width;
+	margin: 0 auto;
+}
 
 .clear {
-  clear: both; }
+	clear: both;
+}
 
 .center {
-  text-align: center; }
+	text-align: center;
+}
 
 .uppercase {
-  text-transform: uppercase; }
+	text-transform: uppercase;
+}
 
 .titlecase {
-  text-transform: capitalize; }
+	text-transform: capitalize;
+}
 
 .invisible {
-  visibility: hidden; }
+	visibility: hidden;
+}
+
+.serif {
+	font-family: $serif;
+}
+
+.sans {
+	font-family: $sans;
+}
