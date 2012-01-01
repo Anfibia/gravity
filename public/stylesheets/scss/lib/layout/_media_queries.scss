@@ -15,9 +15,9 @@ www.owainlewis.com
 and (min-width : 320px)
 and (max-width : 480px){
 	
-	@include column_reset;
-	.container{width:90%;}
-	img {max-width:320px;}
+  @include column_reset;
+  .container{width:90%;}
+  img {max-width:320px;}
 	
 }
 
@@ -36,8 +36,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 and (min-width : 480px)
 and (max-width : 1024px){
 
-	@include column_reset;
-	.container{width:90%;}
+  @include column_reset;
+  .container{width:90%;}
 	
 }
 
