@@ -6,12 +6,6 @@
  * License: MIT
  * http://www.opensource.org/licenses/mit-license.php
  *-------------------------------------------------------------- */
-/* 
-	Eric Meyer's CSS Reset
-	http://meyerweb.com/eric/tools/css/reset/ 
-	v2.0 | 20110126
- 	License: none (public domain)
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -721,46 +715,17 @@ div.success a, #flash_success a {
 
 /*-----------------------------------
 
- Demo CSS. 
- Delete anything below this line you don't need
+ Your CSS goes here
 
 -----------------------------------*/
 body {
-  background: url(../../images/baseline-20.png) repeat center 0px; }
+  background: #eee; }
 
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
-  overflow: hidden;
-  border-left: 1px solid #eaeaea;
-  border-right: 1px solid #eaeaea; }
-
-section {
-  clear: both;
-  margin: 20px 0;
   overflow: hidden; }
-
-.section-1 {
-  min-height: 240px; }
-
-.section-2 {
-  min-height: 220px; }
-
-.section-3 {
-  min-height: 260px; }
-
-.section-4 {
-  min-height: 320px; }
-
-.section-5 {
-  min-height: 580px; }
-
-.section-6 {
-  min-height: 280px; }
-
-.section-7 {
-  min-height: 260px; }
 
 /*-----------------------------------
 

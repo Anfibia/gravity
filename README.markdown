@@ -11,6 +11,13 @@ Gravity is a modular CSS framework for building better responsive websites. This
 
 Download the code by cloning the repo or or directly from the zip file. Edit the settings.scss file to suit your needs. Build awesome websites.
 
+	git clone http://github.com/owainlewis/Gravity-Framework.git [project-name]
+	cd [project-name]
+	
+To start watching your SCSS files, run the following rake task
+
+	rake watch
+
 ##Features
 
 + Sensible and pretty default styles for all elements
@@ -48,15 +55,16 @@ Download the code by cloning the repo or or directly from the zip file. Edit the
 This mixin will set all columns to block level and full width. It's main use is in creating stacked columns for mobile layouts.
 
 	@include column_reset();
-
-## Install
-
-	git clone http://github.com/owainlewis/Gravity-Framework.git [project-name]
-	cd [project-name]
 	
-To start watching your SCSS files, run the following rake task
+## Rake Tasks
 
-	rake watch
+Watch your scss folder and convert changes to css
+
+    rake watch
+
+Convert all scss to sass
+
+    rake update
 
 =====================
 
