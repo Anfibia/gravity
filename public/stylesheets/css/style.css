@@ -218,7 +218,7 @@ h6 {
 
 .span-1 {
   float: left;
-  width: 4.255%;
+  width: 6.383%;
   margin-right: 0;
   margin-right: 2.128%; }
   .span-1:last-child {
@@ -226,107 +226,79 @@ h6 {
 
 .span-2 {
   float: left;
-  width: 10.638%;
+  width: 14.894%;
   margin-right: 2.128%; }
   .span-2:last-child {
     margin-right: 0; }
 
 .span-3 {
   float: left;
-  width: 17.021%;
+  width: 23.404%;
   margin-right: 2.128%; }
   .span-3:last-child {
     margin-right: 0; }
 
 .span-4 {
   float: left;
-  width: 23.404%;
+  width: 31.915%;
   margin-right: 2.128%; }
   .span-4:last-child {
     margin-right: 0; }
 
 .span-5 {
   float: left;
-  width: 29.787%;
+  width: 40.426%;
   margin-right: 2.128%; }
   .span-5:last-child {
     margin-right: 0; }
 
 .span-6 {
   float: left;
-  width: 36.17%;
+  width: 48.936%;
   margin-right: 2.128%; }
   .span-6:last-child {
     margin-right: 0; }
 
 .span-7 {
   float: left;
-  width: 42.553%;
+  width: 57.447%;
   margin-right: 2.128%; }
   .span-7:last-child {
     margin-right: 0; }
 
 .span-8 {
   float: left;
-  width: 48.936%;
+  width: 65.957%;
   margin-right: 2.128%; }
   .span-8:last-child {
     margin-right: 0; }
 
 .span-9 {
   float: left;
-  width: 55.319%;
+  width: 74.468%;
   margin-right: 2.128%; }
   .span-9:last-child {
     margin-right: 0; }
 
 .span-10 {
   float: left;
-  width: 61.702%;
+  width: 82.979%;
   margin-right: 2.128%; }
   .span-10:last-child {
     margin-right: 0; }
 
 .span-11 {
   float: left;
-  width: 68.085%;
+  width: 91.489%;
   margin-right: 2.128%; }
   .span-11:last-child {
     margin-right: 0; }
 
 .span-12 {
   float: left;
-  width: 74.468%;
-  margin-right: 2.128%; }
-  .span-12:last-child {
-    margin-right: 0; }
-
-.span-13 {
-  float: left;
-  width: 80.851%;
-  margin-right: 2.128%; }
-  .span-13:last-child {
-    margin-right: 0; }
-
-.span-14 {
-  float: left;
-  width: 87.234%;
-  margin-right: 2.128%; }
-  .span-14:last-child {
-    margin-right: 0; }
-
-.span-15 {
-  float: left;
-  width: 93.617%;
-  margin-right: 2.128%; }
-  .span-15:last-child {
-    margin-right: 0; }
-
-.span-16 {
-  float: left;
   width: 100%;
   margin-right: 2.128%; }
-  .span-16:last-child {
+  .span-12:last-child {
     margin-right: 0; }
 
 .last {
@@ -538,12 +510,12 @@ th {
   border-right: 1px solid #ddd; }
 
 td {
-  padding: 5px 9px 14px 9px;
+  padding: 12px 9px 9px 9px;
   border-bottom: 1px solid #ddd;
   border-right: 1px solid #ddd; }
 
 th {
-  padding: 5px 9px 12px 9px; }
+  padding: 12px 9px 9px 9px; }
 
 tr:nth-child(even) {
   background: #f5f5f5; }
@@ -719,12 +691,17 @@ div.success a, #flash_success a {
 
 -----------------------------------*/
 body {
-  background: #eee; }
+  background: #fff; }
 
 .container {
-  max-width: 1100px;
+  max-width: 940px;
   margin: 0 auto;
   padding: 20px;
+  overflow: hidden; }
+
+section {
+  clear: both;
+  margin-bottom: 40px;
   overflow: hidden; }
 
 /*-----------------------------------
@@ -808,26 +785,6 @@ and (max-width : 480px) {
     width: 100%;
     float: none; }
 
-  .span-13 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-14 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-15 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-16 {
-    display: block;
-    width: 100%;
-    float: none; }
-
   .container {
     width: 90%; }
 
@@ -899,26 +856,6 @@ and (max-width : 1024px) {
     float: none; }
 
   .span-12 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-13 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-14 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-15 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-16 {
     display: block;
     width: 100%;
     float: none; }

@@ -6,16 +6,243 @@
     <meta content='' name='description' />
     <meta content='' name='author' />
     <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
-    <meta content='' name='viewport' />
+    <meta content='width=device-width' name='viewport' />
     <link href='public/stylesheets/css/style.css' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,700italic,400italic' rel='stylesheet' type='text/css' />
   </head>
   <body>
     <div class='container'>
-      <h1 class='center'>Gravity CSS</h1>
-      <p class='center'>Run rake watch in the terminal to start watching your SASS.</p>
+      <h1 class='center'>Gravity</h1>
+      <section class='section-1'>
+        <h3>Paragraphs</h3>
+        <div class='span-4'>
+          <p>Gravity is a handcrafted, responsive SASS based framework for making better websites. If you like this then please share. You are free to use this code in any you wish. Now go make some websites!</p>
+          <pre><code>This is a code block</code></pre>
+        </div>
+        <div class='span-4'>
+          <p>
+            <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b>
+          </p>
+          <p>
+            <a>Link Here</a>
+          </p>
+          <p>
+            <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
+          </p>
+        </div>
+        <div class='span-4'>
+          <p>
+            <small>Small text. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+          </p>
+          <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</q>
+        </div>
+      </section>
+      <section class='section-2'>
+        <div class='span-6'>
+          <h3>Misc Elements</h3>
+          <p>
+            <del>Strike through</del>
+          </p>
+        </div>
+        <div class='span-6'>
+          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  styles.</blockquote>
+        </div>
+      </section>
+      <section>
+        <h3>Rails Helpers</h3>
+        <div class='error'>Error message</div>
+        <div class='notice'>Notice</div>
+        <div class='success'>Success message</div>
+      </section>
+      <section class='section-3'>
+        <div class='span-4'>
+          <img src='http://placehold.it/300x200' />
+        </div>
+        <div class='span-4'>
+          <img src='http://placehold.it/300x200' />
+        </div>
+        <div class='span-4'>
+          <img src='http://placehold.it/300x200' />
+        </div>
+      </section>
+      <section class='section-4'>
+        <div class='span-4'>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+        </div>
+        <div class='span-4'>
+          <h1>Lorem ipsum</h1>
+          <h2>Lorem ipsum dolor</h2>
+          <h3>Lorem ipsum dolor</h3>
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <h5>Lorem ipsum dolor sit amet</h5>
+          <h6>Lorem ipsum dolor sit amet</h6>
+        </div>
+        <div class='span-4'>
+          <h1 class='serif'>Serif Heading</h1>
+          <h2 class='serif'>Heading 2</h2>
+          <h3 class='serif'>Heading 3</h3>
+          <h4 class='serif'>Heading 4</h4>
+          <h5 class='serif'>Serif</h5>
+          <h6 class='serif'>Heading 6</h6>
+        </div>
+      </section>
+      <section class='section-5'>
+        <div class='span-4'>
+          <h3>Forms</h3>
+          <p>Default forms. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <ul class='input-list'>
+            <li>
+              <input type='radio'>Radio button 1</input>
+            </li>
+            <li>
+              <input type='radio'>Another</input>
+            </li>
+            <li>
+              <input type='radio'>Radio 3</input>
+            </li>
+          </ul>
+          <label>Password input</label>
+          <input type='password' value='password' />
+          <input type='search' />
+        </div>
+        <div class='span-8'>
+          <form>
+            <label>Text input</label>
+            <input type='text' />
+            <label>Email input</label>
+            <input type='email' />
+            <label>Select</label>
+            <select>
+              <option>First</option>
+              <option>Second</option>
+              <option>Third</option>
+            </select>
+            <input class='button' type='submit' />
+          </form>
+          <h3>Stacked Checkboxes</h3>
+          <ul class='input-list'>
+            <li>
+              <input type='checkbox'>Checkbox</input>
+            </li>
+            <li>
+              <input type='checkbox'>List item</input>
+            </li>
+            <li>
+              <input type='checkbox'>Another item</input>
+            </li>
+          </ul>
+          <label>Textarea</label>
+          <textarea></textarea>
+        </div>
+      </section>
+      <section class='section-6'>
+        <h3>Lists</h3>
+        <div class='span-3'>
+          <ul>
+            <li>Some long text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            <li>Unordered list test</li>
+            <li>
+              Some item
+              <ul>
+                <li>Unordered list test</li>
+                <li>Another item</li>
+                <li>Sub item</li>
+                <li>Final list item</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class='span-3'>
+          <ol>
+            <li>Item 1</li>
+            <li>
+              Nested ol
+              <ol>
+                <li>Nested item</li>
+                <li>Another one</li>
+                <li>Item 2</li>
+                <li>
+                  Item 3
+                  <ul>
+                    <li>Sub item</li>
+                  </ul>
+                </li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+        <div class='span-3'>
+          <dl>
+            <dt>Lorem ipsum dolor sit amet, consectetur adipisicing elit adipisicing elit adipisicing elit</dt>
+            <dd>Item 1</dd>
+            <dd>Some title</dd>
+            <dd>Item 2</dd>
+            <dd>Item 3</dd>
+          </dl>
+        </div>
+        <div class='span-3'>
+          <ul class='unstyled'>
+            <li>Unstyled items</li>
+            <li>Another unstyled list item</li>
+            <li>
+              Some text
+              <ul>
+                <li>Sub item in list</li>
+                <li>Another sub item</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class='section-7'>
+        <h3>Tabular Data</h3>
+        <div class='span-16'>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Email</th>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+              <tr>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+                <td>Lorem ipsum</td>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </section>
+      <section class='section-8'>
+        <h3>Buttons</h3>
+        <a class='button'>Submit</a>
+        <a class='button delete'>Delete</a>
+        <a class='button main'>Default button</a>
+      </section>
+      <p class='center'>
+        Gravity Framework by
+        <a href='http://www.owainlewis.com'>Owain Lewis.</a>
+      </p>
     </div>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.7/underscore-min.js'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.3/backbone-min.js'></script>
   </body>
 </html>
