@@ -3,14 +3,14 @@
 -------------------------------------------------- */
 
 a {
-	color: $links;
-	text-decoration: none;
-	cursor: pointer;
+  color: $links;
+  text-decoration: none;
+  cursor: pointer;
 }
 a:hover {
-	color: $links-hover;
+  color: $links-hover;
 }
 a:focus {
-	color: $links-focus;
-	outline: none;
+  color: $links-focus;
+  outline: none;
 }
