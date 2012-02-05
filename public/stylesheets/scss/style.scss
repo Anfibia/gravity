@@ -9,7 +9,7 @@
 body{background:#fff;}
 
 .container {
-  max-width: 940px;
+  max-width: $width;
   margin: 0 auto;
   padding: 20px;
   overflow: hidden;
