@@ -14,4 +14,13 @@
   *vertical-align: auto;
 }
 
-@mixin clear {clear:both;}
+@mixin clear {
+  clear:both;
+}
+
+// Adds a nice subtle gradient to the page
+@mixin background-sheen {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));	
+}

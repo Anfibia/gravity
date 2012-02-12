@@ -6,7 +6,17 @@
 
 -----------------------------------*/
 
-body{background:#fff;}
+html{
+  background:#ccc;
+}
+
+body{
+
+  min-height: 100%;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  @include background-sheen();
+}
 
 .container {
   max-width: $width;
