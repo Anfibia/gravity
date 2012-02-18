@@ -4,12 +4,16 @@ http://GravityFramework.com
 
 ## Why another CSS framework? 
 
-Gravity is a modular CSS framework for building better responsive websites. This means you can choose only the parts you need and also be sure that you start every project with a very solid foundation. Using SASS makes your CSS much cleaner and easier to maintain. Gravity will help you rapidly prototype rock solid websites that work in all web browsers. 
+Gravity is a modular SCSS framework for building better responsive websites. This means you can choose only the parts you need and also be sure that you start every project with a very solid foundation. Using SASS makes your CSS much cleaner and easier to maintain. Gravity will help you rapidly prototype rock solid websites that work in all web browsers. 
 
 
 ## Quick Start
 
-Download the code by cloning the repo or or directly from the zip file. Edit the settings.scss file to suit your needs. Build awesome websites.
++ Download the code by cloning the repo or or directly from the zip file. 
++ Edit the settings.scss file to suit your needs. 
++ Build awesome websites.
+
+To download the files...
 
 	git clone http://github.com/owainlewis/gravity.git [project-name]
 	cd [project-name]
@@ -31,31 +35,6 @@ To start watching your SCSS files, run the following rake task
 + CSS3 button style mixins
 + Typography that automatically adjusts to your baseline grid
 
-## CSS3 Mixins
-
-+ Background-clip
-+ Border-radius
-+ Border-image
-+ Box-shadow
-+ Box-sizing
-+ Columns
-+ Font-face
-+ Gradients
-+ Opacity
-+ Rotate
-+ Scale
-+ Text-shadow
-+ Transform
-+ Transition
-
-## Structural and grid mixins
-
-### Column Reset
-
-This mixin will set all columns to block level and full width. It's main use is in creating stacked columns for mobile layouts.
-
-	@include column_reset();
-	
 ## Rake Tasks
 
 Watch your scss folder and convert changes to css
@@ -72,8 +51,7 @@ Convert all scss to sass
 
 Basically do whatever you want with it. I use this as a base for every website I build and you are free to use it for any of your projects without restriction. 
 
-License: MIT
-http://www.opensource.org/licenses/mit-license.php
+License: MIT http://www.opensource.org/licenses/mit-license.php
 
 
 
