@@ -105,9 +105,6 @@ img::selection {
 img::-moz-selection {
   background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: rgba(255, 0, 0, 0.62); }
-
 /* Misc Element Styles */
 abbr, acronym {
   border-bottom: 1px dotted black; }
@@ -133,14 +130,16 @@ blockquote {
   margin: 20px 0; }
 
 pre, code {
-  margin: 10px 0;
-  white-space: pre; }
+  margin: 40px 0;
+  white-space: pre;
+  font-family: "Andale Mono WT", Monaco, "Courier New", Courier, monospace;
+  font-size: 12px; }
 
-pre, code, tt {
-  font: "Andale Mono WT", Monaco, "Courier New", Courier, monospace;
+code {
   line-height: 1.5;
-  padding: 0 3px 2px;
-  background: #FFFFEE; }
+  padding: 10px;
+  background: #f9f9f9;
+  border: 1px solid #eee; }
 
 q {
   font-style: italic;
@@ -688,29 +687,19 @@ div.success a, #flash_success a {
 
 /*-----------------------------------
 
- Your CSS goes here
+Comments Website for Client
+
+@Project MyProject
+@Type Freelance
+@Version 1.0
+@Date 
+@Author [Name]
 
 -----------------------------------*/
-html {
-  background: #ccc; }
-
-body {
-  min-height: 100%;
-  overflow-y: scroll;
-  -webkit-font-smoothing: antialiased;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0)));
-  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
-  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  overflow: hidden; }
-
-section {
-  clear: both;
-  margin-bottom: 40px;
   overflow: hidden; }
 
 /*-----------------------------------
@@ -728,151 +717,4 @@ www.owainlewis.com
 /*
 Reset all columns to display as stacked elements i.e for mobile
 */
-/* ============================= */
-/* ! Layout for 320 Mobile. 4 Columns */
-/* ============================= */
-@media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
-  .span-1 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-2 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-3 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-4 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-5 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-6 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-7 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-8 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-9 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-10 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-11 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-12 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .container {
-    width: 90%; }
-
-  img {
-    max-width: 320px; } }
-/* iPhone 4 ----------- */
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-  /* Styles */ }
-/* ============================= */
-/* ! Layout for 768. Tablets 10 columns */
-/* ============================= */
-@media only screen
-and (min-width : 480px)
-and (max-width : 1024px) {
-  .span-1 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-2 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-3 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-4 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-5 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-6 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-7 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-8 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-9 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-10 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-11 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .span-12 {
-    display: block;
-    width: 100%;
-    float: none; }
-
-  .container {
-    width: 90%; } }
-/* ============================= */
-/* ! Layout for 1024 12 columns */
-/* ============================= */
-/* ============================= */
-/* ! Layout for 1280 and above 16 columns */
-/* ============================= */
+/* Image replacements for retina display */
