@@ -1,4 +1,4 @@
 *.log
 .DS_Store
 .sass-cache
-
+views/all_elements.haml
