@@ -12,13 +12,12 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-	h1 {
+  h1 {
     font-size: 36px;
-    line-height:$baseline * 2;
-	}
-	h2 {
+    line-height:$baseline * 2;}
+  h2 {
     font-size: 24px;
-	}
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
