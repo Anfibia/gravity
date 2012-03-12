@@ -1,6 +1,13 @@
+/**====================================
+
+  FORMS
+
+=======================================*/
+
 //Forms
 
 $formPadding: 8px 9px 9px 9px;
+$borders: #ccc;
 
 ::-moz-focus-inner {
   border: 0;
@@ -12,11 +19,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 form {
-  margin-bottom: $baseline;
+  margin-bottom: $baseline/2;
 }
 
 fieldset {
-  margin-bottom: $baseline;
+  margin-bottom: $baseline/2;
 }
 
 input[type="text"]:focus,
@@ -64,7 +71,7 @@ button,
 select,
 textarea {
   vertical-align: middle;
-  margin-bottom: $baseline;
+  margin-bottom: $baseline/2;
 }
 
 input[type="radio"],
@@ -141,7 +148,6 @@ input[type="week"] {
   outline: none;
   @include border-radius(2px);
   font: 12px $sans;
-  margin: 0 0 18px 0;
   width: 100%;
   display: block;
   /* IE7 */
@@ -196,13 +202,7 @@ optgroup {
 }
 
 button[type=submit], input[type='submit'] {
-  padding: 10px 12px 7px 12px;
-  text-align: center;
-  font-weight: bold;
-  @include border-radius(5px);
-  @include gradient;
-  border: 0;
-  color: white;
+  @include button;
 }
 
 .input-list {

@@ -1,3 +1,9 @@
+/**====================================
+
+  TABLES
+
+=======================================*/
+
 table {
   margin-bottom: $baseline;
   width: 100%;
@@ -7,18 +13,18 @@ table {
 th {
   font-weight: bold;
   text-align: left;
-  border-bottom: 2px solid $gray;
-  border-right:1px solid #ddd;
 }
 
 td {
-  padding: 12px 9px 9px 9px;
+  padding: 9px 11px 8px;
   border-bottom: 1px solid #ddd;
   border-right:1px solid #ddd;
 }
 
 th {
-  padding: 12px 9px 9px 9px;
+  padding: 9px 11px 8px;
+  border-right:1px solid #ddd;
+  border-bottom:1px solid #ddd;
 }
 
 tr:nth-child(even) {

@@ -1,0 +1,81 @@
+/*
+Syntax error: Undefined variable: "$blueDark".
+        on line 8 of public/stylesheets/scss/base.scss
+
+3: -------------------------------------------------- */
+4: 
+5: a {
+6:   text-decoration: none;
+7:   cursor: pointer;
+8:   color:$blueDark;
+9: }
+10: 
+11: a:hover {}
+12: 
+13: a:focus {
+
+Backtrace:
+public/stylesheets/scss/base.scss:8
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/script/variable.rb:49:in `_perform'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/script/node.rb:40:in `perform'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:216:in `visit_prop'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `map'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `map'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/base.rb:37:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/tree/root_node.rb:20:in `render'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/engine.rb:299:in `_render'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/engine.rb:246:in `render'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `each'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:272:in `block (4 levels) in watch'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `call'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:73:in `run_callback'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:55:in `callback_action'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/path.rb:35:in `update'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:39:in `block in modified'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `each'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:37:in `modified'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/state/directory.rb:18:in `refresh'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `each'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:17:in `block in run'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:15:in `loop'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/backends/polling.rb:15:in `run'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm/monitor.rb:26:in `run'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/fssm-0.2.7/lib/fssm.rb:20:in `monitor'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin/compiler.rb:265:in `watch'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/plugin.rb:107:in `method_missing'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/exec.rb:431:in `watch_or_update'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/exec.rb:302:in `process_result'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/exec.rb:41:in `parse'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/lib/sass/exec.rb:21:in `parse!'
+/opt/local/lib/ruby1.9/gems/1.9.1/gems/sass-3.1.15/bin/sass:8:in `<top (required)>'
+/opt/local/bin/sass:19:in `load'
+/opt/local/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$blueDark\".\A         on line 8 of public/stylesheets/scss/base.scss\A \A 3: -------------------------------------------------- */\A 4: \A 5: a {\A 6:   text-decoration: none;\A 7:   cursor: pointer;\A 8:   color:$blueDark;\A 9: }\A 10: \A 11: a:hover {}\A 12: \A 13: a:focus {"; }

@@ -1,5 +1,3 @@
-@import "lib/core";
-
 /**====================================
 
   @Project MyProject
@@ -10,17 +8,33 @@
 
 =======================================*/
 
-.container {
-  max-width: $width;
-  margin: 0 auto;
-  padding: 20px;
-  overflow: hidden;
-}
+@import 'reset';
+@import 'settings';
+@import 'mixins';
+@import 'grid';
+@import 'base';
+
+@import 'forms';
+@import 'typography';
+@import 'tables';
+@import 'media';
 
 /**====================================
 
-  Media Queries must be below main css to override existing styles
+  CSS HERE
 
 =======================================*/
 
-@import "lib/layout/media_queries";
+section {
+  clear:both;
+  margin-bottom:24px;
+  overflow:hidden;
+}
+
+@for $i from 1 to 12 {
+  .span-#{$i}{
+    margin-bottom:12px;
+  }
+}
+
+

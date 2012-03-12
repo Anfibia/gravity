@@ -11,8 +11,69 @@
 
   %body
     .container
-      %h1.center Gravity CSS
-      %p.center Run rake watch in the terminal to start watching your SASS. 
+      %section
+        %h1{:style => "text-align:center"} Gravity, A responsive framework for mobile and desktop
+      %section
+        .span-6
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        .span-6.last
+          %blockquote 
+            This is a blockquote
+            %small Owain Lewis
+
+          %pre
+            (+ 1 2 3)
+
+      %section
+        .span-4
+          %h1 Heading 1 
+          %h2 Heading 2 
+          %h3 Heading 3
+          %h4 Heading 4
+        .span-4
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+        .span-4.last
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      %section
+
+        %form
+
+          %label A label
+          %input{:type => "text"}
+
+          %label A label
+          %input{:type => "text"}
+ 
+          %input{:type => "submit"}
+
+      %section
+
+        .span-3
+
+          %h3 Lists
+          %ul
+            %li Scala
+            %li Java
+            %li Ruby
+            %li Clojure
+        .span-3
+
+          %h3 Definition Lists
+          %dl
+            %dt Definition Heading
+            %dd Item
+            %dd Another
+
+        .span-3
+          %h3 Heading
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+        .span-3.last
+          %h3 Another
+          %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+
 
     %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"}
 

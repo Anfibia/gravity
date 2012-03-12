@@ -1,0 +1,128 @@
+/* --------------------------------------------------
+:: Links
+-------------------------------------------------- */
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:$blueDark;
+}
+
+a:hover {}
+
+a:focus {
+  outline: none;
+}
+
+ol, ul, dl {
+  padding: 0;
+}
+
+ol {
+  margin-bottom: $baseline;
+  margin-left: $baseline;
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  margin-bottom: $baseline;
+  list-style: none;
+  li {
+    margin-bottom: $baseline/2;
+    ul {
+      margin-left: 0;
+      margin-bottom: $baseline / 2;
+    }
+  }
+}
+
+ul.unstyled {
+  list-style: none;
+  li {
+    margin-left: 0;
+  }
+}
+
+
+dl {
+  margin-bottom: $baseline/2;
+  dt {
+    font-weight: bold;
+    margin-bottom: $baseline/2;
+  }
+  dd {
+    margin-bottom: $baseline/2;
+  }
+}
+
+// Emphasis
+
+strong {
+  font-style: inherit;
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.muted {
+  color: $grayLight;
+}
+
+// Blockquote
+
+blockquote {
+  margin-bottom: $baseline;
+  border-left: 5px solid #eee;
+  padding-left: 20px;
+  font-size:24px;
+  line-height:$baseline * 2;
+ 
+  small {
+    display: block;
+    color: $grayLight;
+    font-size:18px;
+    font-family:$serif;
+    line-height:24px;
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+}
+
+// Address
+
+address {
+  display: block;
+  line-height: $baseline;
+  margin-bottom: $baseline;
+}
+
+// Inline and block code styles
+
+code, pre {
+  padding: 0 3px 2px;
+  font-family:$mono;
+  font-size: 12px;
+  @include border-radius(2px);
+}
+code {
+  background-color: #f5f5f5;
+  color: rgba(0,0,0,.75);
+}
+pre {
+  background-color: #f5f5f5;
+  display: block;
+  padding: 11px;
+  margin: $baseline 0;
+  line-height: $baseline;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.15);
+  @include border-radius(3px);
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
