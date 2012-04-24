@@ -10,7 +10,13 @@ A micro framework for building and prototyping beautiful responsive websites wit
 gem install sinatra
 git clone https://github.com/owainlewis/gravity
 cd /gravity
-ruby app.rb 
+ruby app.rb -p 3000
+```
+
+If all goes well you should see the following server message
+
+```bash
+Sinatra/1.3.2 has taken the stage on 3000 for development with backup from Thin
 ```
 	
 To start watching your SCSS files open another terminal window and use the built in rake task:
@@ -50,6 +56,14 @@ The following mixins are provided out of the box
 @mixin horizontal-gradient
 @mixin vertical-gradient
 @mixin button
+```
+
+I also recommend checking out the responsive grid builder for inspiration on using SCSS to create dynamic grids.
+
+```sass
+@function columns-width($n, $width: $grid-width){
+  @return $n * $width + (($n - 1) * ($gutter-width * 2))
+}
 ```
 
 # In depth

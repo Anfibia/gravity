@@ -101,11 +101,6 @@ MIXINS
   background-image: linear-gradient($startColor, $endColor); // The standard
 }
 
-/* Don't use native buttons on iOS */
-input[type=submit].button {
-  -webkit-appearance: none;
-}
-
 @mixin button-style($color) {
   @include gradient($color, darken($color, 10%));
   &:hover {

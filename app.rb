@@ -5,6 +5,7 @@
 # ====================================
 
 require 'sinatra'
+require 'haml'
 
 helpers do
   def partial(page, options={})
