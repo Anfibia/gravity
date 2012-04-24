@@ -4,18 +4,22 @@ A micro framework for building and prototyping beautiful responsive websites wit
 
 ## OSX Quick Start
 
-1 minute setup guide (assumes you have Ruby and Git installed.
+1 minute setup guide (assumes you have Ruby and Git installed).
 
 ```bash
 gem install sinatra
 git clone https://github.com/owainlewis/gravity
 cd /gravity
-ruby app.rb
+ruby app.rb 
 ```
 	
 To start watching your SCSS files open another terminal window and use the built in rake task:
 
-	rake watch
+```bash
+rake watch
+```
+
+![gravity](https://github.com/owainlewis/gravity/tree/master/public/images/gravity.jpg)
 
 ##Features
 
@@ -58,7 +62,7 @@ Convert all scss to sass
 
 Run your application tests with
 
-```ruby
+```bash
 ruby test/app_test.rb
 ```
 
