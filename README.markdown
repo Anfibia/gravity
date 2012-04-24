@@ -4,7 +4,7 @@ A micro framework for building and prototyping beautiful responsive websites wit
 
 ## OSX Quick Start
 
-1 minute setup guide (assumes you have Ruby and Git installed).
+1 minute setup guide (assumes you have Ruby 1.9.x and Git installed).
 
 ```bash
 gem install sinatra
