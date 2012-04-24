@@ -1,24 +1,19 @@
-#Gravity Framework
+# Gravity
 
-http://GravityFramework.com
+A micro framework for building and prototyping beautiful responsive websites with SCSS, HAML and Ruby. Feel free to fork the project and make it your own. The framework now runs on Sinatra which will generally make building static websites easier.
 
-## Why another CSS framework? 
+## OSX Quick Start
 
-Gravity is a modular SCSS framework for building better responsive websites. This means you can choose only the parts you need and also be sure that you start every project with a very solid foundation. Using SASS makes your CSS much cleaner and easier to maintain. Gravity will help you rapidly prototype rock solid websites that work in all web browsers. 
+1 minute setup guide (assumes you have Ruby and Git installed.
 
-
-## Quick Start
-
-+ Download the code by cloning the repo or or directly from the zip file. 
-+ Edit the settings.scss file to suit your needs. 
-+ Build awesome websites.
-
-To download the files...
-
-	git clone http://github.com/owainlewis/gravity.git [project-name]
-	cd [project-name]
+```bash
+gem install sinatra
+git clone https://github.com/owainlewis/gravity
+cd /gravity
+ruby app.rb
+```
 	
-To start watching your SCSS files, run the following rake task
+To start watching your SCSS files open another terminal window and use the built in rake task:
 
 	rake watch
 
@@ -35,15 +30,37 @@ To start watching your SCSS files, run the following rake task
 + CSS3 button style mixins
 + Typography that automatically adjusts to your baseline grid
 
-## Rake Tasks
+The following mixins are provided out of the box
 
-Watch your scss folder and convert changes to css
+```css
+@mixin border-radius
+@mixin content-columns
+@mixin border-image
+@mixin opacity
+@mixin text-shadow
+@mixin transition
+@mixin transform
+@mixin transform-origin
+@mixin box-shadow
+@mixin gradient
+@mixin horizontal-gradient
+@mixin vertical-gradient
+@mixin button
+```
 
-    rake watch
+# In depth
 
 Convert all scss to sass
 
     rake update
+    
+## Tests
+
+Run your application tests with
+
+```ruby
+ruby test/app_test.rb
+```
 
 =====================
 
@@ -52,7 +69,3 @@ Convert all scss to sass
 Basically do whatever you want with it. I use this as a base for every website I build and you are free to use it for any of your projects without restriction. 
 
 License: MIT http://www.opensource.org/licenses/mit-license.php
-
-
-
-
