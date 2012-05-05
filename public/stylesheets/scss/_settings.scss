@@ -1,8 +1,12 @@
-// Links
+/*=VARIABLES - LINKS
+=======================================*/
+
 $linkColor: #0069d6;
 $linkColorHover: darken($linkColor, 15);
 
-// Grays
+/*=VARIABLES - COLORS
+=======================================*/
+
 $black: #000;
 $grayDark: lighten($black, 10%);
 $gray: lighten($black, 20%);
@@ -10,7 +14,6 @@ $grayLight: lighten($black, 30%);
 $grayLighter: lighten($black, 40%);
 $white: #fff;
 
-// Accent Colors
 $blue: #049CDB;
 $blueDark: #0064CD;
 $green: #46a546;
@@ -20,9 +23,15 @@ $orange: #f89406;
 $pink: #c3325f;
 $purple: #7a43b6;
 
-$sans: 'PT Sans', Helvetica, Arial, sans-serif;
+/*=VARIABLES - FONTS
+=======================================*/
+
+$sans: Helvetica, Arial, sans-serif;
 $serif: 'Georgia', 'Times New Roman', Helvetica, Arial, sans-serif;
 $mono: 'Andale Mono WT', Monaco, 'Courier New', Courier, monospace;
+
+/*=VARIABLES - TYPOGRAPHY
+=======================================*/
 
 $font-size: 14px;
 $baseline: 24px;

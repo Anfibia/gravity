@@ -9,17 +9,18 @@ body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dt,dl,input,textarea {
   font-family: $sans;
   color: $grayDark;
   font-size: 14px;
-	
 }
+
+/*=HEADINGS
+=======================================*/
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
-  line-height: $baseline * 2;
+  line-height: 1.5;
 }
 
 h1 {
   font-size: 48px;
-  line-height:$baseline * 3;
 }
 
 h2 {
@@ -40,4 +41,66 @@ h5 {
 
 h6 {
   font-size: 24px;
+}
+
+/*=LISTS
+=======================================*/
+
+ol, ul, dl {
+  padding: 0;
+}
+
+ol {
+  margin-bottom: $baseline;
+  margin-left: $baseline;
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+  margin-bottom: $baseline;
+  list-style: none;
+  li {
+    margin-bottom: $baseline/2;
+    ul {
+      margin-left: 0;
+      margin-bottom: $baseline / 2;
+    }
+  }
+}
+
+ul.unstyled {
+  list-style: none;
+  li {
+    margin-left: 0;
+  }
+}
+
+dl {
+  margin-bottom: $baseline/2;
+  dt {
+    font-weight: bold;
+    margin-bottom: $baseline/2;
+  }
+  dd {
+    margin-bottom: $baseline/2;
+  }
+}
+
+/*=LINKS
+=======================================*/
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:$blueDark;
+}
+
+a:hover {
+  
+}
+
+a:focus {
+  outline: none;
 }

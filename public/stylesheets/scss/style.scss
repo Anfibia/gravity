@@ -1,7 +1,7 @@
 /**====================================
 
-  @Project MyProject
-  @Type Website
+  @Project [MyProject]
+  @Type [Website | Application]
   @Version 1.0
   @Date 
   @Author [Name]
@@ -14,6 +14,7 @@
 @import 'grid';
 @import 'base';
 
+@import 'buttons';
 @import 'forms';
 @import 'typography';
 @import 'tables';
@@ -21,7 +22,7 @@
 
 /**====================================
 
-  CSS HERE
+  APP
 
 =======================================*/
 
@@ -36,3 +37,5 @@ section {
     margin-bottom:12px;
   }
 }
+
+.container { }
