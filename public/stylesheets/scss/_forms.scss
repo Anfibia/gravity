@@ -44,7 +44,6 @@ label,
 legend {
   display: block;
   font-weight: bold;
-  font-size: 14px;
   line-height:1.5;
   margin-bottom:8px;
 }
@@ -60,7 +59,6 @@ input[type="checkbox"] {
 label span,
 legend span {
   font-weight: normal;
-  font-size: 13px;
   color: #444444;
 }
 
@@ -151,7 +149,6 @@ input[type="week"] {
   padding: $formPadding;
   outline: none;
   @include border-radius(2px);
-  font: 12px $sans;
   width: 100%;
   display: block;
   /* IE7 */
