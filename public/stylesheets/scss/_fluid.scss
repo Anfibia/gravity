@@ -16,104 +16,104 @@
 }
 
 .span-1,.span-2,.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-9,.span-10,.span-11,.span-12 {
-margin-right: 3.8%;
-float: left;
-min-height: 1px;
+  margin-right: 3.8%;
+  float: left;
+  min-height: 1px;
 }
 
 .span-1 {
-width: 4.85%;
+  width: 4.85%;
 }
 
 .span-2 {
-width: 13.45%;
+  width: 13.45%;
 }
 
 .span-3 {
-width: 22.05%;
+  width: 22.05%;
 }
 
 .span-4 {
-width: 30.75%;
+  width: 30.75%;
 }
 
 .span-5 {
-width: 39.45%;
+  width: 39.45%;
 }
 
 .span-6 {
-width: 48%;
+  width: 48%;
 }
 
 .span-7 {
-width: 56.75%;
+  width: 56.75%;
 }
 
 .span-8 {
-width: 65.4%;
+  width: 65.4%;
 }
 
 .span-9 {
-width: 74.05%;
+  width: 74.05%;
 }
 
 .span-10 {
-width: 82.7%;
+  width: 82.7%;
 }
 
 .span-11 {
-width: 91.35%;
+  width: 91.35%;
 }
 
 .span-12 {
-width: 100%;
-float: left;
+  width: 100%;
+  float: left;
 }
 
 .last {
-margin-right: 0px;
+  margin-right: 0px;
 }
 
 img, object, embed {
-max-width: 100%;
+  max-width: 100%;
 }
 
 img {
-	height: auto;
+  height: auto;
 }
 
 /* Smaller screens */
 
 @media only screen and (max-width: 1023px) {
-	body {
-	  font-size: 0.8em;
-	  line-height: 1.5em;
-	}	
+  body {
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }	
 }
 
 /* Mobile */
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-	  font-size: 16px;
-	  -webkit-text-size-adjust: none;
-	}
+  body {
+    font-size: 16px;
+    -webkit-text-size-adjust: none;
+  }
 	
-	.container {
-	  width: 98%;
-	  min-width: 0;
-	  margin-left: 0px;
-	  margin-right: 0px;
-	  padding:20px 1%;
-	}
+  .container {
+    width: 98%;
+    min-width: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:20px 1%;
+  }
 	
-	.span-1,.span-2,.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-9,.span-10,.span-11,.span-12 {
-	  width: auto;
-	  float: none;
-	  margin-left: 0px;
-	  margin-right: 0px;
-	  padding-left: 20px;
-	  padding-right: 20px;
-	}
+  .span-1,.span-2,.span-3,.span-4,.span-5,.span-6,.span-7,.span-8,.span-9,.span-10,.span-11,.span-12 {
+    width: auto;
+    float: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
