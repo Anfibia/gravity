@@ -231,6 +231,13 @@ img {
     margin-right: 0px;
     padding-left: 20px;
     padding-right: 20px; } }
+html {
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: #f3f5f6;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 62.5%; }
+
 strong {
   font-style: inherit;
   font-weight: bold; }
@@ -239,9 +246,6 @@ em {
   font-style: italic;
   font-weight: inherit;
   line-height: inherit; }
-
-.muted {
-  color: #4d4d4d; }
 
 blockquote {
   margin-bottom: 24px;
@@ -704,16 +708,8 @@ and (min-width : 1824px) {
   APP
 
 =======================================*/
-html {
-  background: #ffffff;
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: #f3f5f6;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-size: 62.5%; }
-
 section {
   display: block;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   clear: both;
   overflow: hidden; }
