@@ -5,10 +5,11 @@
 =======================================*/
 
 body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dt,dl,input,textarea {
-  line-height: $baseline;
+  line-height: 1.5em;
   font-family: $sans;
   color: $grayDark;
-  font-size: 14px;
+  font-size: 16px;
+  text-rendering: optimizelegibility;
 }
 
 /*=HEADINGS
@@ -20,27 +21,44 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  font-size: 48px;
+  margin-bottom: 0.75em;
+  font-size: 32px;
+  font-size: 3.2rem;
+  line-height: 1.2;
 }
 
 h2 {
-  font-size: 36px;
+  margin-bottom: 0.75em;
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 1.2;
 }
 
 h3 {
-  font-size: 24px;
+  margin-bottom: 1em;
+  font-size: 21px;
+  font-size: 2.1rem;
+  line-height: 1.3;
 }
 
 h4 {
-  font-size: 24px;
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 1.25;
 }
 
 h5 {
-  font-size: 24px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-bottom: 1.5em;
 }
 
 h6 {
-  font-size: 24px;
+  margin-bottom: 1.5em;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal;
 }
 
 /*=LISTS
@@ -94,7 +112,7 @@ dl {
 a {
   text-decoration: none;
   cursor: pointer;
-  color:$blueDark;
+  color:$blue;
 }
 
 a:hover {
@@ -103,4 +121,11 @@ a:hover {
 
 a:focus {
   outline: none;
+}
+
+/*=PARAGRAPHS
+=======================================*/
+
+p {
+  margin-bottom:$baseline; 
 }

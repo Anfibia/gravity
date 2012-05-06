@@ -11,14 +11,14 @@
 @import 'reset';
 @import 'settings';
 @import 'mixins';
-@import 'grid';
+@import 'fluid';
 @import 'base';
 
 @import 'buttons';
 @import 'forms';
 @import 'typography';
 @import 'tables';
-@import 'media';
+@import 'mediaqueries';
 
 /**====================================
 
@@ -26,16 +26,18 @@
 
 =======================================*/
 
+html {
+  background: #ffffff;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: #f3f5f6;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+
 section {
+  display:block;
+  margin-bottom:$baseline*2;
   clear:both;
-  margin-bottom:24px;
-  overflow:hidden;
+  overflow: hidden;
 }
-
-@for $i from 1 to 12 {
-  .span-#{$i}{
-    margin-bottom:12px;
-  }
-}
-
-.container { }

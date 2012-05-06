@@ -13,20 +13,22 @@
     %pre
       list.foldLeft(list.head)((_, c) => c)
 
-  %section
-    .span-4
-      %h1 Heading 1 
-      %h2 Heading 2 
-      %h3 Heading 3
-      %h4 Heading 4
-    .span-4
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+%section
+  .span-4
+    %h1 Heading 1 
+    %h2 Heading 2 
+    %h3 Heading 3
+    %h4 Heading 4
+    %h5 Heading 5
+    %h6 Heading 6
+  .span-4
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-    .span-4.last
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  .span-4.last
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  %section
-
+%section
+  .span-12
     %form
 
       %label A label
@@ -37,43 +39,44 @@
 
       %input{:type => "submit"}
 
-  %section
+%section
 
-    .span-3
+  .span-3
 
-      %h3 Lists
-      %ul
-        %li Scala
-        %li Java
-        %li Ruby
-        %li Clojure
-    .span-3
+    %h3 Lists
+    %ul
+      %li Scala
+      %li Java
+      %li Ruby
+      %li Clojure
+  .span-3
 
-      %h3 Definition Lists
-      %dl
-        %dt Definition Heading
-        %dd Item
-        %dd Another
+    %h3 Definition Lists
+    %dl
+      %dt Definition Heading
+      %dd Item
+      %dd Another
 
-    .span-3
-      %h3 Heading
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-    .span-3.last
-      %h3 Another
-      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  .span-3
+    %h3 Heading
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+  .span-3.last
+    %h3 Another
+    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
       
 %section
-  %table.data
-    %thead
+  .span-12
+    %table.data
+      %thead
+        %tr
+          %th Name
+          %th Address
+          %th Phone
       %tr
-        %th Name
-        %th Address
-        %th Phone
-    %tr
-      %td Owain Lewis
-      %td 23 San Fran
-      %td 07321 1234567
-    %tr
-      %td Owain Lewis
-      %td 23 San Fran
-      %td 07321 1234567
+        %td Owain Lewis
+        %td 23 San Fran
+        %td 07321 1234567
+      %tr
+        %td Owain Lewis
+        %td 23 San Fran
+        %td 07321 1234567

@@ -1,18 +1,7 @@
 /*=BUTTON MIXINS
 =======================================*/
 
-@mixin double-background($ur){
-  background: #6cab26;
-  background-image: url($url); /* fallback */
-  background-image: url($ur), -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
-  background-image: url($ur), -webkit-linear-gradient(top, #444444, #999999); /* Chrome 10+, Saf5.1+ */
-  background-image:    url($ur), -moz-linear-gradient(top, #444444, #999999); /* FF3.6+ */
-  background-image:     url($ur), -ms-linear-gradient(top, #444444, #999999); /* IE10 */
-  background-image:      url($ur), -o-linear-gradient(top, #444444, #999999); /* Opera 11.10+ */
-  background-image:         url($ur), linear-gradient(top, #444444, #999999); /* W3C */
-}
-
-@mixin button($color: lighten(desaturate($blue,40%), 10%), $text_color: $white) {
+@mixin button($color: lighten(desaturate($blue,10%), 10%), $text_color: $white) {
   
   display: inline-block;
   outline: none;

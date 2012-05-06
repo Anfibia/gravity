@@ -7,25 +7,23 @@
 table {
   margin-bottom: $baseline;
   width: 100%;
-  border:1px solid #ddd;
-}
-
-th {
-  background: url(../../images/stripe.png);
-  font-weight: bold;
-  text-align: left;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: transparent;
 }
 
 td {
-  padding: 9px 11px 8px;
+  padding: $baseline $baseline/2;
   border-bottom: 1px solid #ddd;
-  border-right:1px solid #ddd;
 }
 
 th {
-  padding: 9px 11px 8px;
-  border-right:1px solid #ddd;
+  padding: $baseline $baseline/2;
   border-bottom:1px solid #ddd;
+  background: url(../../images/stripe.png);
+  font-weight: bold;
+  text-align: left;
 }
 
 tr:nth-child(even) {
