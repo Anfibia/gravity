@@ -2,7 +2,8 @@
 %html{:class => 'no-js', :lang => 'en'}
   %head
     %meta{:charset => 'utf-8'}
-    %title="My Project"
+    %title="Project Name"
+    %link{ :rel => "shortcut icon", :href => "images/favicon.ico", :type => "image/x-icon"}/
     %meta{:content => '', :name => 'description'}
     %meta{:content => '', :name => 'author'}
     %script{:src => 'http://html5shim.googlecode.com/svn/trunk/html5.js'}
@@ -12,5 +13,6 @@
 
   %body
     .container
-      = partial 'content'
+      %h1 My Project
+      = partial 'demo_content'
     = partial 'javascripts'
