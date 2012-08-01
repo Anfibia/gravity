@@ -1,5 +1,5 @@
-/*=BUTTON MIXINS
-=======================================*/
+// BUTTON MIXINS
+// --------------
 
 @mixin button($color: lighten(desaturate($blue,10%), 10%), $text_color: $white) {
   

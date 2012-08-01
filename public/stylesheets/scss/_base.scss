@@ -1,3 +1,6 @@
+// BASE CSS
+// --------------
+
 html {
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: #f3f5f6;
@@ -7,11 +10,13 @@ html {
 }
 
 // Emphasis
+// --------------
 
 strong {
   font-style: inherit;
   font-weight: bold;
 }
+
 em {
   font-style: italic;
   font-weight: inherit;
@@ -19,6 +24,7 @@ em {
 }
 
 // Blockquote
+// --------------
 
 blockquote {
   margin-bottom: $baseline;
@@ -29,7 +35,7 @@ blockquote {
  
   small {
     display: block;
-    color: $grayLight;
+    color: $gray-light;
     font-size:18px;
     font-family:$serif;
     line-height:24px;
@@ -40,6 +46,7 @@ blockquote {
 }
 
 // Address
+// --------------
 
 address {
   display: block;
@@ -48,6 +55,7 @@ address {
 }
 
 // Inline and block code styles
+// --------------
 
 code, pre {
   padding: 0 3px 2px;

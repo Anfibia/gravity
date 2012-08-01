@@ -1,17 +1,19 @@
-/*=VARIABLES - LINKS
-=======================================*/
+// PROJECT SETTINGS
+// ---------------
 
-$linkColor: #0069d6;
-$linkColorHover: darken($linkColor, 15);
+$link-color: #0069d6;
+$link-color-hover: darken($link-color, 15);
 
-/*=VARIABLES - COLORS
-=======================================*/
+// COLORS
+// ---------------
 
 $black: #000;
-$grayDark: lighten($black, 10%);
+
+$gray-dark: lighten($black, 10%);
 $gray: lighten($black, 20%);
-$grayLight: lighten($black, 30%);
-$grayLighter: lighten($black, 40%);
+$gray-light: lighten($black, 30%);
+$gray-lighter: lighten($black, 40%);
+
 $white: #fff;
 
 $blue: #46A5CC;
@@ -22,15 +24,15 @@ $orange: #f89406;
 $pink: #c3325f;
 $purple: #7a43b6;
 
-/*=VARIABLES - FONTS
-=======================================*/
+// FONTS
+// ---------------
 
-$sans: Helvetica, Arial, sans-serif;
+$sans: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $serif: Georgia, serif;
 $mono: 'Andale Mono WT', Monaco, 'Courier New', Courier, monospace;
 
-/*=VARIABLES - TYPOGRAPHY
-=======================================*/
+// TYPOGRAPHY
+// ---------------
 
 $font-size: 14px;
 $baseline: 24px;
