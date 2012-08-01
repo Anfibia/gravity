@@ -76,11 +76,7 @@ input[type="radio"],
 input[type="checkbox"] {
   position: relative;
   vertical-align: top;
-  top: 1px;
-  /* IE8, IE9, IE10 */
-  top: 0 \0;
-  /* IE7 */
-  *top: -1px;
+  top: 4px;
   margin-right: 5px;
   line-height:1;
 }
@@ -105,7 +101,7 @@ input[type="checkbox"] {
   }
 }
 
-/* Don't use native buttons on iOS */
+// Don't use native buttons on iOS
 input[type=submit].button {
   -webkit-appearance: none;
 }
@@ -176,7 +172,7 @@ textarea:-moz-placeholder {
   box-shadow: none;
 }
 
-/* Tweaks for Safari + Chrome. */
+// Tweaks for Safari + Chrome
 
 @media (-webkit-min-device-pixel-ratio: 0) {
   select[size],
@@ -206,7 +202,7 @@ optgroup {
 }
 
 button[type=submit], input[type='submit'] {
-  @include button;
+
 }
 
 .input-list {

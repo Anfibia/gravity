@@ -1,29 +1,59 @@
 // BUTTON MIXINS
 // --------------
 
-@mixin button($color: lighten(desaturate($blue,10%), 10%), $text_color: $white) {
-  
+@mixin button($color: #eee, $text_color: #333) {
   display: inline-block;
   outline: none;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  font: 14px/100% Arial, Helvetica, sans-serif;
-  padding: 10px 25px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  padding:10px 25px;
+  margin:0 0 10px 0;
   @include border-radius(5px);
-
   color: $text_color;
-  font-weight: bold;
   border: solid 1px darken($color, 18%);
-  @include gradient($color, darken($color, 15%));
+  @include gradient($color, darken($color, 5%));
 
   &:hover {
     text-decoration: none;
-    @include gradient($color, darken($color, 5%));
+    @include gradient($color, darken($color, 10%));
   }
 
   &:active {
-    @include gradient($color, lighten($color, 15%));
+    @include gradient($color, lighten($color, 10%));
   }
+}
+
+.btn {
+  @include button();
+}
+
+// SIZES
+// --------------
+
+.btn-large {
+  padding:15px 30px;
+}
+
+.btn-medium {
+  padding:10px 25px;
+}
+
+.btn-small {
+  padding:5px 20px;
+}
+
+// COLORS
+// --------------
+
+.btn-blue {
+  @include button($blue, $white);
+}
+
+.btn-green {
+  @include button($green, $white);
+}
+
+.btn-red {
+  @include button($red, $white);
 }
