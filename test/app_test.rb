@@ -11,6 +11,6 @@ class MyAppTest < Test::Unit::TestCase
 
   def test_my_default
     get '/'
-    assert_match 'A responsive framework for mobile and desktop', last_response.body
+    assert_match 'Basic Elements', last_response.body
   end
 end
