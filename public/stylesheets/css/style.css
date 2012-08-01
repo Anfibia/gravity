@@ -221,7 +221,7 @@ blockquote {
     display: block;
     color: #4d4d4d;
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
     line-height: 24px; }
     blockquote small:before {
       content: '\2014 \00A0'; }
@@ -415,7 +415,7 @@ textarea:-moz-placeholder {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #666666), color-stop(1, black));
     border: #cccccc;
     color: white;
-    font: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     padding: 15px 15px 17px;
     text-shadow: black 0 0 1px; }
 
@@ -510,9 +510,9 @@ input[type="color"],
 
 body, h1, h2, h3, h4, h5, h6, p, ul, li, ol, dt, dl, input, textarea {
   line-height: 1.5em;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   color: #1a1a1a;
-  font-size: 14px;
+  font-size: 15px;
   text-rendering: optimizelegibility; }
 
 h1, h2, h3, h4, h5, h6 {
