@@ -82,3 +82,11 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+// MISC
+// --------------
+
+hr {
+  margin: $baseline 0;
+  background-color: #eee;
+}

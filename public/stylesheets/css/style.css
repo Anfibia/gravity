@@ -233,7 +233,7 @@ address {
 
 code, pre {
   padding: 0 3px 2px;
-  font-family: "Andale Mono WT", Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, monaco, monospace;
   font-size: 12px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -261,6 +261,10 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
+
+hr {
+  margin: 24px 0;
+  background-color: #eee; }
 
 ::-moz-focus-inner {
   border: 0;
@@ -327,7 +331,8 @@ input[type="checkbox"] {
   top: 0 \0;
   /* IE7 */
   *top: -1px;
-  margin-right: 5px; }
+  margin-right: 5px;
+  line-height: 1; }
 
 @media (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 1024px) {
   input[type="radio"],
