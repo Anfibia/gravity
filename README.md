@@ -25,8 +25,6 @@ To start watching your SCSS files open another terminal window and use the built
 rake watch
 ```
 
-![gravity](https://github.com/owainlewis/gravity/raw/master/public/images/gravity.jpg)
-
 ##Features
 
 + Sensible and pretty default styles for all elements
