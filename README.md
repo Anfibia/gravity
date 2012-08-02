@@ -66,6 +66,14 @@ I also recommend checking out the responsive grid builder for inspiration on usi
 }
 ```
 
+## Rails Projects
+
+To use Gravity with Rails simple copy the stylesheets into vendor/assets/stylesheets and add this to your manifest file
+
+```sass
+@include 'gravity';
+```
+
 # In depth
 
 Convert all scss to sass

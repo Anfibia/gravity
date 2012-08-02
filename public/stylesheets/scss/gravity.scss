@@ -8,11 +8,15 @@
 //
 // --------------
 
+// CORE
+
 @import 'reset';
 @import 'settings';
 @import 'mixins';
 @import 'fluid';
 @import 'base';
+
+// EXTRAS
 
 @import 'buttons';
 @import 'forms';
@@ -20,12 +24,5 @@
 @import 'tables';
 @import 'mediaqueries';
 
-// Start Project
+// PROJECT STARTS
 // --------------
-
-section {
-  display:block;
-  margin-bottom:$baseline;
-  clear:both;
-  overflow: hidden;
-}
