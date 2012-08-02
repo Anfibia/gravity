@@ -1,3 +1,23 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
 article,
 aside,
 details,
@@ -435,27 +455,27 @@ hr {
   -o-border-radius: 5px;
   border-radius: 5px;
   color: white;
-  border: solid 1px #035d73;
-  background: #06a5cc;
+  border: solid 1px #005179;
+  background: #008fd5;
   /* for non-css3 browsers */
-  background: -webkit-gradient(linear, left top, left bottom, from(#06a5cc), to(#0591b3));
+  background: -webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#007ebc));
   /* for webkit browsers */
-  background: -moz-linear-gradient(top, #06a5cc, #0591b3);
+  background: -moz-linear-gradient(top, #008fd5, #007ebc);
   /* for firefox 3.6+ */ }
   .btn-blue:hover {
     text-decoration: none;
-    background: #06a5cc;
+    background: #008fd5;
     /* for non-css3 browsers */
-    background: -webkit-gradient(linear, left top, left bottom, from(#06a5cc), to(#057d9a));
+    background: -webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#006da2));
     /* for webkit browsers */
-    background: -moz-linear-gradient(top, #06a5cc, #057d9a);
+    background: -moz-linear-gradient(top, #008fd5, #006da2);
     /* for firefox 3.6+ */ }
   .btn-blue:active {
-    background: #06a5cc;
+    background: #008fd5;
     /* for non-css3 browsers */
-    background: -webkit-gradient(linear, left top, left bottom, from(#06a5cc), to(#0dcaf8));
+    background: -webkit-gradient(linear, left top, left bottom, from(#008fd5), to(#09aeff));
     /* for webkit browsers */
-    background: -moz-linear-gradient(top, #06a5cc, #0dcaf8);
+    background: -moz-linear-gradient(top, #008fd5, #09aeff);
     /* for firefox 3.6+ */ }
 
 .btn-green {
@@ -550,7 +570,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
-  border: 1px solid #06a5cc;
+  border: 1px solid #008fd5;
   color: #444444; }
 
 textarea {
@@ -809,7 +829,7 @@ dl {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #06a5cc; }
+  color: #008fd5; }
 
 a:focus {
   outline: none; }
@@ -881,10 +901,10 @@ table.striped th.headerSortUp:after {
   -moz-opacity: 0.6;
   opacity: 0.6; }
 table.striped th.blue {
-  color: #06a5cc;
-  border-bottom-color: #06a5cc; }
+  color: #008fd5;
+  border-bottom-color: #008fd5; }
 table.striped th.headerSortUp.blue, table.striped th.headerSortDown.blue {
-  background-color: #a2eafc; }
+  background-color: #a2e0ff; }
 table.striped th.green {
   color: #46a546;
   border-bottom-color: #46a546; }
