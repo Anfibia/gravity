@@ -55,7 +55,6 @@ The following mixins are provided out of the box
 @mixin vertical-gradient
 @mixin button
 ```
-``
 
 ## Rails Projects
 
