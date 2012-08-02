@@ -55,14 +55,7 @@ The following mixins are provided out of the box
 @mixin vertical-gradient
 @mixin button
 ```
-
-I also recommend checking out the responsive grid builder for inspiration on using SCSS to create dynamic grids.
-
-```sass
-@function columns-width($n, $width: $grid-width){
-  @return $n * $width + (($n - 1) * ($gutter-width * 2))
-}
-```
+``
 
 ## Rails Projects
 
