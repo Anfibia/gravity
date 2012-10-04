@@ -56,6 +56,14 @@ The following mixins are provided out of the box
 @mixin button
 ```
 
+## Flash messages
+
+Flash messages are provided for web apps. Use a class of .flash-success, .flash-error or .flash-info.
+
+## Responsive Images
+
+Simply add a class of .responsive to get responsive images.
+
 ## Rails Projects
 
 To use Gravity with Rails simple copy the stylesheets into vendor/assets/stylesheets and add this to your manifest file

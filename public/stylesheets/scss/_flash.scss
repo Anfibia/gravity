@@ -1,6 +1,6 @@
 // Helpers for Rails style flash messages
 
-.alert {
+.flash {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
   color: #c09853;
@@ -12,46 +12,46 @@
           border-radius: 4px;
 }
 
-.alert h4 {
+.flash h4 {
   margin: 0;
 }
 
-.alert .close {
+.flash .close {
   position: relative;
   top: -2px;
   right: -21px;
   line-height: 20px;
 }
 
-.alert-success {
+.flash-success {
   color: #468847;
   background-color: #dff0d8;
   border-color: #d6e9c6;
 }
 
-.alert-danger,
-.alert-error {
+.flash-danger,
+.flash-error {
   color: #b94a48;
   background-color: #f2dede;
   border-color: #eed3d7;
 }
 
-.alert-info {
+.flash-info {
   color: #3a87ad;
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
 
-.alert-block {
+.flash-block {
   padding-top: 14px;
   padding-bottom: 14px;
 }
 
-.alert-block > p,
-.alert-block > ul {
+.flash-block > p,
+.flash-block > ul {
   margin-bottom: 0;
 }
 
-.alert-block p + p {
+.flash-block p + p {
   margin-top: 5px;
 }
