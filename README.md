@@ -2,6 +2,8 @@
 
 A micro framework for building and prototyping beautiful responsive websites with SCSS, HAML and Ruby. Feel free to fork the project and make it your own. The framework now runs on Sinatra which will generally make building static websites easier.
 
+![](https://raw.github.com/owainlewis/gravity/master/public/images/preview.png)
+
 ## OSX Quick Start
 
 1 minute setup guide (assumes you have Ruby 1.9.x and Git installed).
