@@ -13,11 +13,17 @@
 @import 'reset';
 @import 'settings';
 @import 'mixins';
+
+// Choose your grid
+// @import '960';
 @import 'fluid';
+
 @import 'base';
 
 // EXTRAS
 
+@import 'flash';
+@import 'responsive';
 @import 'buttons';
 @import 'forms';
 @import 'typography';

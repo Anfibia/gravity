@@ -2,7 +2,7 @@ require 'rake'
 
 # Compile SCSS files into css
 task :watch do
-  system "sass --watch public/stylesheets/scss:public/stylesheets/css/ --style compressed"
+  system "sass --watch public/stylesheets/scss:public/stylesheets/css --style compressed"
 end
 
 # Convert all the scss files to sass
