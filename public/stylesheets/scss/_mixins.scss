@@ -1,23 +1,6 @@
 // MIXINS
 // --------------
 
-@mixin background-retina-image($element, $image) {
-  @media only screen and (min--moz-device-pixel-ratio: 2),
-    only screen and (-o-min-device-pixel-ratio: 2/1),
-    only screen and (-webkit-min-device-pixel-ratio: 2),
-    only screen and (min-device-pixel-ratio: 2) {
-    #{$element} {
-      background: url($image) no-repeat;
-      background-size: 50%;
-    }
-  }
-}
-
-.div {
-    @include background-retina-image("#logo", "/header.png");
-
-}
-
 @mixin elipsis() { 
   white-space: nowrap;
   overflow: hidden;
