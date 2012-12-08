@@ -2,10 +2,10 @@
 // --------------
 
 body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dt,dl,input,textarea {
-  line-height: 24px;
+  line-height: 1.5;
   font-family: $sans;
-  color: $gray-dark;
-  font-size: $font-size;
+  color: $grayDark;
+  font-size: $fontSize;
   text-rendering: optimizelegibility;
 }
 
@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
   line-height: 1.3;
   color:black;
+  margin:0 0 $baseline;
 }
 
 h1 {

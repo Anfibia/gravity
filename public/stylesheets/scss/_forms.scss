@@ -39,7 +39,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $sans;
 }
 
 label {
@@ -189,27 +189,6 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-.uneditable-input,
-.uneditable-textarea {
-  color: #999999;
-  cursor: not-allowed;
-  background-color: #fcfcfc;
-  border-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
-     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
-          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
-}
-
-.uneditable-input {
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.uneditable-textarea {
-  width: auto;
-  height: auto;
-}
-
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   color: #999999;
@@ -279,33 +258,7 @@ textarea::-webkit-input-placeholder {
   width: 530px;
 }
 
-input[class*="span"],
-select[class*="span"],
-textarea[class*="span"],
-.uneditable-input[class*="span"],
-.row-fluid input[class*="span"],
-.row-fluid select[class*="span"],
-.row-fluid textarea[class*="span"],
-.row-fluid .uneditable-input[class*="span"] {
-  float: none;
-  margin-left: 0;
-}
-
-.input-append input[class*="span"],
-.input-append .uneditable-input[class*="span"],
-.input-prepend input[class*="span"],
-.input-prepend .uneditable-input[class*="span"],
-.row-fluid input[class*="span"],
-.row-fluid select[class*="span"],
-.row-fluid textarea[class*="span"],
-.row-fluid .uneditable-input[class*="span"],
-.row-fluid .input-prepend [class*="span"],
-.row-fluid .input-append [class*="span"] {
-  display: inline-block;
-}
-
 input,
-textarea,
-.uneditable-input {
+textarea {
   margin-left: 0;
 }
