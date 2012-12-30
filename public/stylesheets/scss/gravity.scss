@@ -1,34 +1,17 @@
-// --------------
-//
-//  Project MyProject
-//  Type Website | Application
-//  Version 1.0
-//  Date 
-//  Author Name
-//
-// --------------
+@charset "UTF-8";
 
-// CORE
-
-@import 'reset';
 @import 'settings';
-@import 'mixins';
+@import 'core/all';
 
-// Choose your grid
-// @import '960';
-@import 'fluid';
+@import 'mixins/all';
+@import 'typography/all';
+@import 'grid/fluid';
 
-@import 'base';
+@import 'modules/forms';
+@import 'modules/tables';
+@import 'modules/media';
 
-// EXTRAS
-
-@import 'flash';
-@import 'responsive';
-@import 'buttons';
-@import 'forms';
-@import 'typography';
-@import 'tables';
-@import 'mediaqueries';
+@import 'ui/buttons';
 
 // PROJECT STARTS
 // --------------

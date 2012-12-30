@@ -1,18 +1,7 @@
 // PROJECT SETTINGS
 // ---------------
 
-// FONTS
-// ---------------
-
-$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif: Georgia, Times, "Times New Roman", serif;
-$monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
-
-// TYPOGRAPHY
-// ---------------
-
-$fontSize: 16px;
-$baseline: 24px;
+// COLORS
 
 $black:                 #000;
 $grayDarker:            #222;
@@ -23,10 +12,31 @@ $grayLighter:           #eee;
 $white:                 #fff;
 
 $blue:                  #049cdb;
-$blueDark:              #0064cd;
 $green:                 #46a546;
 $red:                   #9d261d;
 $yellow:                #ffc40d;
 $orange:                #f89406;
 $pink:                  #c3325f;
 $purple:                #7a43b6;
+
+// FONTS
+// ---------------
+
+$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif: Georgia, Times, "Times New Roman", serif;
+$monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
+
+$fontSize: 16px;
+$baseline: 24px;
+
+$headerFontFamily: $sans;
+$headerFontColor: $grayDark;
+$headerFontWeight: 700;
+
+$bodyFontFamily: $sans;
+$bodyFontColor: $gray;
+
+// BUTTONS
+
+$buttonRadius: 5px !default;
+$btnPadding: 10px !default;

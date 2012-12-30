@@ -1,6 +1,8 @@
 // FLUID GRID
 // --------------
 
+@import 'responsive';
+
 .pad-top {
   padding:20px 0;
 }
@@ -18,7 +20,6 @@
 
 [class*="span"] {
   width: 100%;
-  overflow:hidden;
   *zoom: 1;
 }
 

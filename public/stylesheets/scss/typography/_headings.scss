@@ -1,0 +1,39 @@
+// HEADINGS
+// --------------
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:$headerFontFamily;
+  font-weight: $headerFontWeight;
+  color:$headerFontColor;
+  margin:0 0 $baseline;
+}
+
+h1 {
+  margin-bottom: 0.75em;
+  @include font-size(32);
+}
+
+h2 {
+  margin-bottom: 0.75em;
+  @include font-size(24);
+}
+
+h3 {
+  margin-bottom: 1em;
+  @include font-size(21);
+}
+
+h4 {
+  margin-bottom: 1.5em;
+  @include font-size(18);
+}
+
+h5 {
+  @include font-size(16);
+}
+
+h6 {
+  margin-bottom: 1.5em;
+  @include font-size(14);
+  font-weight: normal;
+}
