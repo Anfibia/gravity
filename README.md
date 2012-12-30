@@ -2,6 +2,12 @@
 
 A micro framework for building and prototyping beautiful responsive websites with SCSS. 
 
+The stylesheets are compiled using SASS and aim to be as modular as possible. 
+
+Gravity differs from frameworks like Bootstrap and Foundation by being more modular and minimal. 
+
+It gives you a rock solid foundation without overloading you with thousands of CSS and JS components you don't need.
+
 Feel free to fork the project and make it your own.
 
 ## License 
