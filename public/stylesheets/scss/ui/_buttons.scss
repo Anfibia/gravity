@@ -55,3 +55,7 @@ $buttonDefaultColor: #eee;
 .button.blue{
   @include colorButton($blue, $white);
 }
+
+.button.black{
+  @include colorButton(#333, $white);
+}
