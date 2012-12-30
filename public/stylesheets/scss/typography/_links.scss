@@ -1,0 +1,10 @@
+// LINKS
+// --------------
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color:$blue;
+  &:hover {};
+  &:focus { outline: none; }
+}

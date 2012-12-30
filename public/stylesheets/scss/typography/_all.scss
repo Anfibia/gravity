@@ -10,14 +10,4 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,p,blockquote,th,td {
 
 @import 'headings';
 @import 'lists';
-
-// LINKS
-// --------------
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color:$blue;
-  &:hover {};
-  &:focus { outline: none; }
-}
+@import 'links';
