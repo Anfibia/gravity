@@ -1,6 +1,6 @@
 # Gravity
 
-A micro framework for building and prototyping beautiful responsive websites with SCSS. 
+A micro framework for building and prototyping responsive websites. 
 
 The stylesheets are compiled using SASS and aim to be as modular as possible. 
 
@@ -25,6 +25,15 @@ Compile the SCSS assets to CSS
 
 ```
 rake watch
+```
+
+## Deploy to Heroku
+
+This app is ready to be pushed to Heroku. Just run
+
+```
+heroku create
+git push heroku master
 ```
 
 ## License 
