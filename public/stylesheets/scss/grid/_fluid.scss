@@ -37,10 +37,13 @@
 }
 
 @media all and (max-width: 768px) {
+  
+  .container {
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%; 
+  }
 	.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11 {
 		float: none;
-		width:90%;
-    padding-left: 5%;
-    padding-right: 5%;
 	}
 }
