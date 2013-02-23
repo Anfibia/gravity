@@ -6,6 +6,8 @@ GEM
     foreman (0.60.2)
       thor (>= 0.13.6)
     rack (1.5.2)
+    rake (10.0.3)
+    sass (3.2.5)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
@@ -21,5 +23,7 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
+  rake
+  sass
   sinatra (= 1.1.0)
   thin
