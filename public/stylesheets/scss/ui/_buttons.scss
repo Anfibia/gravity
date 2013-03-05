@@ -1,61 +1,78 @@
-// BUTTON KIT
-// --------------
+// Colors
+$base: #34495e;
+$firm: #1abc9c;
 
-$buttonDefaultColor: #eee;
+$gray: #95a5a6;
+$lightgray: #ecf0f1;
+$inverse: white;
 
-@mixin button($color, $text_color: #333) {
-  
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  padding: 7px 20px;
-  margin: 0 0 $baseline;
-  cursor: pointer;
-  border: 1px solid #bbb;
-  overflow: visible;
-  font-size: $fontSize - 2;
-  text-decoration: none;
-  white-space: nowrap;
-  color: #555;
-  background-color: #ddd;
-  transition: background-color .2s ease-out;
-  background-clip: padding-box; /* Fix bleeding */
-  @include gradient($color, darken($color, 5%));
-  @include border-radius(5px);
-  text-shadow: 0 1px 0 rgba(255,255,255, .9);  
+$success: #2ecc71;
+$danger: #e74c3c;
+$warning: #f1c40f;
+$info: #3498db;
 
-  &:hover{
-    @include gradient(darken($color,5%), darken($color, 10%));
+@mixin button-states($color) {
+  background-color: $color;
+  &:hover,
+  &:focus {
+    background-color: scale-color($color, $lightness: 20%);
+  }
+  &:active,
+  &.active {
+    background-color: scale-color($color, $lightness: -15%);
   }
 }
 
-@mixin colorButton($color, $textColor) {
-  
-  @include gradient($color, darken($color, 5%));
-  color:$textColor;
-  text-shadow:none;
-  
-  &:hover {
-    @include gradient(darken($color,5%), darken($color, 10%));
-  };
-}
+// Buttons -----------------------
+.btn, .button {
+  border: none;
+  background: $base;
+  color: $inverse;
+  font-size: 16.5px;
+  margin: 0 0 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  display: block;
+  padding:10px 20px;
+  @include box-shadow(none);
+  @include border-radius(6px);
+  @include transition(0.25s);
+  &:hover,
+  &:focus {
+    background-color: scale-color($base, $lightness: 20%);
+    color: $inverse;
+    @include transition(0.25s);
+  }
+  &:active,
+  &.active {
+    background-color: scale-color($base, $lightness: -15%);
+    color: rgba($inverse, 0.75);
+    @include box-shadow(none);
+  }
+  &.disabled,
+  &[disabled] {
+    background-color: $gray;
+    color: $inverse;
+  }
+  // Sizes -----------------------
+  &.btn-large {
 
-.button {
-  @include button($buttonDefaultColor);
-}
-
-.button.green{
-  @include colorButton($green, $white);
-}
-
-.button.red{
-  @include colorButton($red, $white);
-}
-
-.button.blue{
-  @include colorButton($blue, $white);
-}
-
-.button.black{
-  @include colorButton(#333, $white);
+  }
+  // Colors -----------------------
+  &.btn-primary {
+    @include button-states($firm);
+  }
+  &.btn-info {
+    @include button-states($info);
+  }
+  &.btn-danger {
+    @include button-states($danger);
+  }
+  &.btn-success {
+    @include button-states($success);
+  }
+  &.btn-warning {
+    @include button-states($warning);
+  }
 }

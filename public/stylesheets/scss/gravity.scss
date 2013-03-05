@@ -2,9 +2,9 @@
 
 @import 'settings';
 @import 'core/all';
-
 @import 'mixins/all';
 @import 'typography/all';
+
 @import 'grid/fluid';
 
 @import 'modules/forms';
@@ -14,5 +14,9 @@
 @import 'ui/buttons';
 @import 'ui/icons';
 
-// PROJECT STARTS
+// YOUR PROJECT STARTS HERE
 // --------------
+
+// DEMO STYLES
+
+section { clear:both; margin: 10px 0 20px; overflow: hidden; }
