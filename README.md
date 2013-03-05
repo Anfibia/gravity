@@ -2,6 +2,12 @@
 
 A micro framework for building and prototyping responsive websites. 
 
+An online demo can be found at 
+
+```
+http://gravitytest.herokuapp.com/
+```
+
 The stylesheets are compiled using SASS and aim to be as modular as possible. 
 
 Gravity differs from frameworks like Bootstrap and Foundation by being more modular and minimal. 
