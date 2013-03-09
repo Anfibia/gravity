@@ -1,11 +1,8 @@
 // Colors
-$base: #34495e;
-$firm: #1abc9c;
+$base: #eee;
+$primary: #0d8f8a;
 
-$gray: #95a5a6;
-$lightgray: #ecf0f1;
-$inverse: white;
-
+// Button colors
 $success: #2ecc71;
 $danger: #e74c3c;
 $warning: #f1c40f;
@@ -13,66 +10,66 @@ $info: #3498db;
 
 @mixin button-states($color) {
   background-color: $color;
+  border: 1px solid darken($color, 5%);
+  color: #FFF;
+  color: rgba(255,255,255,0.95);
+
   &:hover,
   &:focus {
-    background-color: scale-color($color, $lightness: 20%);
+    background-color: scale-color($color, $lightness: 5%);
   }
   &:active,
   &.active {
-    background-color: scale-color($color, $lightness: -15%);
+    background-color: scale-color($color, $lightness: -5%);
   }
 }
 
 // Buttons -----------------------
 .btn, .button {
-  border: none;
+  border: 1px solid darken($base, 5%);
   background: $base;
-  color: $inverse;
-  font-size: 16.5px;
-  margin: 0 0 10px;
+  color: #444;
+  margin: 10px 0;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
   display: block;
-  padding:10px 20px;
-  @include box-shadow(none);
+  width: 150px;
+  padding:8px 16px;
   @include border-radius(6px);
-  @include transition(0.25s);
+  @include transition(0.15s);
   &:hover,
   &:focus {
-    background-color: scale-color($base, $lightness: 20%);
-    color: $inverse;
-    @include transition(0.25s);
+    background-color: scale-color($base, $lightness: 5%);
   }
   &:active,
   &.active {
-    background-color: scale-color($base, $lightness: -15%);
-    color: rgba($inverse, 0.75);
+    background-color: scale-color($base, $lightness: -5%);
     @include box-shadow(none);
   }
   &.disabled,
   &[disabled] {
     background-color: $gray;
-    color: $inverse;
   }
-  // Sizes -----------------------
-  &.btn-large {
 
+  // Sizes -----------------------
+  &.large {
+    width:200px;
   }
   // Colors -----------------------
-  &.btn-primary {
-    @include button-states($firm);
+  &.primary {
+    @include button-states($primary);
   }
-  &.btn-info {
+  &.info {
     @include button-states($info);
   }
-  &.btn-danger {
+  &.danger {
     @include button-states($danger);
   }
-  &.btn-success {
+  &.success {
     @include button-states($success);
   }
-  &.btn-warning {
+  &.warning {
     @include button-states($warning);
   }
 }
