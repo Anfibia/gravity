@@ -1,4 +1,10 @@
+$browser-context: 16; // Default
+
+@function em($target, $context:16) {
+    @return $target / $context * 1em;
+}
+
 h1 {
-  font-size: 2.4em;
-  margin: 1em 0;
+    font-size: 4.4em;
+    margin: 1em 0;
 }
