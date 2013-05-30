@@ -1,4 +1,4 @@
 module Main
 where
 
-install = ""
+install = "sass --watch lib/base/:compiled/base --style nested"
