@@ -1,0 +1,69 @@
+/*
+Syntax error: Invalid CSS after "  float:": expected pseudoclass or pseudoelement, was " left;"
+        on line 12 of lib/grid/columns.scss
+        from line 1 of lib/grid/responsive.scss
+
+7:   width: 80%;
+8: }
+9: 
+10: @mixin span-columns($span) {
+11:   $width: ((100 / 12) * $span)};
+12:   float: left;
+13:   width: $width;
+14:   margin-right: 5%;
+15:   display: block;
+16: }
+17: 
+
+Backtrace:
+lib/grid/columns.scss:12
+lib/grid/responsive.scss:1
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:1148:in `expected'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:1084:in `expected'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:1066:in `expr!'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:794:in `pseudo'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:678:in `simple_selector_sequence'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:640:in `_selector'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:619:in `selector'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:603:in `selector_sequence'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:528:in `ruleset'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/scss/parser.rb:27:in `parse'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/engine.rb:342:in `_to_tree'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/engine.rb:274:in `to_tree'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/tree/root_node.rb:20:in `render'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:283:in `block in watch'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/multi_listener.rb:108:in `call'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `call'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/adapter.rb:198:in `report_changes'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/adapter.rb:210:in `poll_changed_dirs'
+/Users/owainlewis/.rvm/gems/ruby-1.9.3-p194/gems/listen-0.7.3/lib/listen/adapters/darwin.rb:38:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"  float:\": expected pseudoclass or pseudoelement, was \" left;\"\A         on line 12 of lib/grid/columns.scss\A         from line 1 of lib/grid/responsive.scss\A \A 7:   width: 80%;\A 8: }\A 9: \A 10: @mixin span-columns($span) {\A 11:   $width: ((100 / 12) * $span)};\A 12:   float: left;\A 13:   width: $width;\A 14:   margin-right: 5%;\A 15:   display: block;\A 16: }\A 17: "; }

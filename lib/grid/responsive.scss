@@ -1,0 +1,16 @@
+@import 'columns';
+
+.container-fluid {
+  @include gravity-container();
+}
+
+/* For tests */
+
+body.gravity {
+  background: #eee;
+  .span-6 {
+    background: #ccc;
+  }
+}
+
+
