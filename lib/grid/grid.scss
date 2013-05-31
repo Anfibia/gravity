@@ -1,0 +1,13 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "columns";
+
+.container {
+  @include gravity-container();
+}
+
+@for $i from 1 to 12 {
+  .span-#{$i} {
+    @include span-columns($i);
+  }
+}

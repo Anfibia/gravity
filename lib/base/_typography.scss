@@ -1,0 +1,38 @@
+$browser-context: 16; // Default
+
+@function em($target, $context:16) {
+    @return $target / $context * 1em;
+}
+
+// HEADINGS
+// --------------
+
+h1 {
+  font-size:   em(45);
+  line-height: em(20);
+}
+
+h2 {
+  font-size:   em(45);
+  line-height: em(20);
+}
+
+h3 {
+  font-size:   em(45);
+  line-height: em(20);
+}
+
+h4 {
+  font-size:   em(45);
+  line-height: em(20);
+}
+
+h5 {
+  font-size:   em(45);
+  line-height: em(20);
+}
+
+h6 {
+  font-size:   em(45);
+  line-height: em(20);
+}
