@@ -6,6 +6,11 @@
   @include gravity-container();
 }
 
+.container-full {
+  @include gravity-container();
+  width: 100%;
+}
+
 @for $i from 1 to 12 {
   .span-#{$i} {
     @include span-columns($i);
