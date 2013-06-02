@@ -1,13 +1,16 @@
 @charset "UTF-8";
 
-// Core imports
+// Essentials
 @import 'base/base';
 @import 'grid/grid';
 
+// Typography
 @import 'typography/links';
 @import 'typography/lists';
 @import 'typography/code';
+@import 'typography/blockquote';
 
+// Components
 @import 'components/buttons';
 @import 'components/forms';
 @import 'components/tables';

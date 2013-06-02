@@ -17,6 +17,10 @@
   @include gravity-container();
 }
 
+.padded {
+	padding: 20px;
+}
+
 .container-full {
   @include gravity-container();
   width: 100%;
