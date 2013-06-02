@@ -1,4 +1,8 @@
-@import "settings";
+/* Lists
+ * -------------------------------------------
+ * This module defines basic list styles
+ *
+ */
 
 @mixin bullet {
   list-style-position: outside; 
@@ -11,5 +15,5 @@
 
 ul { 
 	@include nobullet; 
-	li { margin-bottom: $baseline; }
+	li { }
 }

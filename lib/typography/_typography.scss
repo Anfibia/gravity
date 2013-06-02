@@ -1,15 +1,16 @@
 @import "font-families";
 @import "../functions/typography";
 
-$base-font-size: 16;
-$base-line-height: 24;
+/* Typography
+ * -------------------------------------------
+ * These styles define basic typography, baselines,
+ * font sizes and vertical rhythm
+ *
+ */
 
-/****************************************************/
+@import "../settings";
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
+/*-------------------------------------------*/
 
 body {
   font-family: $serif;
@@ -17,31 +18,40 @@ body {
   line-height: ($base-line-height / $base-font-size);
 }
 
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;	
+}
+
 // HEADINGS
-/****************************************************/
+/*-------------------------------------------*/
 
 h1 {
-  font-size: em(64);
+  @include font-size(48);
 }
 
 h2 {
-  font-size: em(48);
+  @include font-size(42);
 }
 
 h3 {
-  font-size: em(36);
+  @include font-size(36);
 }
 
 h4 {
-  font-size: em(24);
+  @include font-size(30);
 }
 
 h5 {
-  font-size: em(24);
+  @include font-size(24);
 }
 
 h6 {
-  font-size: em(24);
+  @include font-size(16);
 }
 
-/****************************************************/
+/*-------------------------------------------*/
+
+@import "code";
+@import "lists";
+

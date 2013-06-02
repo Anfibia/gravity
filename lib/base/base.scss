@@ -13,14 +13,20 @@
 */
 
 // Core imports
+// -----------------------------------------
+
 @import 'normalize';
 @import '../typography/typography';
 
-// Modules
-@import '../components/tables';
-@import '../components/lists';
+// -----------------------------------------
 
 body {
   margin: 0;
   padding: 0;
 }
+
+.clear {
+  clear: both;
+}
+
+// -----------------------------------------

@@ -1,8 +1,14 @@
-@function em($target, $context: 16) {
+/* Typography
+ * -------------------------------------------
+ * Useful functions for typography
+ *
+ */
+
+@function em( $target, $context: 16 ) {
   @return $target / $context * 1em;
 }
 
-@mixin set-font-size ($pixel, $em) {
-  font-size: #{$value}px;
-  font-size: #{$value}em;
+@mixin font-size( $size, $base-font-size: 16 ) {
+  font-size: 0px + $size;
+	font-size: ($size / $base-font-size) + rem;
 }
