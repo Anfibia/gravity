@@ -41,5 +41,5 @@ textarea {
 }
 
 input[type="submit"], input[type="reset"] {
-	@include submit-button;
+  @include submit-button;
 }
