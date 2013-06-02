@@ -7,20 +7,20 @@
 $form-padding: 5px;
 
 @mixin form-item {
-	padding: $form-padding;
-	width: 100%;
-	display: block;
-	border: 1px solid #ddd;
-	&:focus { 
-		border: 1px solid #ccc;
-		outline: none;
-	}
+  padding: $form-padding;
+  width: 100%;
+  display: block;
+  border: 1px solid #ddd;
+  &:focus { 
+    border: 1px solid #ccc;
+    outline: none;
+  }
 }
 
 @mixin submit-button {
-	padding: 5px 20px;
-	background: #eee;
-	border: 1px solid #ccc;
+  padding: 5px 20px;
+  background: #eee;
+  border: 1px solid #ccc;
 }
 
 input[type="text"],
