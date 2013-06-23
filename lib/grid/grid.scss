@@ -4,8 +4,8 @@
  *
  */
 
-@import "bourbon/bourbon";
-@import "neat/neat";
+@import "../bourbon/bourbon";
+@import "../neat/neat";
 
 @mixin gravity-container {
   margin: 0 auto;
