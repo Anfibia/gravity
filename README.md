@@ -37,6 +37,14 @@ To update the framework run
 rake gravity:update
 ```
 
+## Compile
+
+To watch and compile all SCSS files into CSS run the following command. It will create a file called all.css in compiled/all.css.
+
+```
+./compile
+```
+
 
 
 

@@ -5,8 +5,13 @@ namespace :gravity do
     system 'cd lib && neat update'
   end
 
-  task :install do |t|
+  task :install do
     system 'cd lib && bourbon install'
     system 'cd lib && neat install'
+  end
+  
+  task :clean do
+    system 'rm -rf lib/bourbon'
+    system 'rm -rf lib/neat'
   end
 end
