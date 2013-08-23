@@ -1,11 +1,12 @@
 namespace :gravity do
+
   task :update do |t|
-    system 'bourbon update'
-    system 'neat update'
+    system 'cd lib && bourbon update'
+    system 'cd lib && neat update'
   end
 
   task :install do |t|
-    system 'bourbon install'
-    system 'neat install'
+    system 'cd lib && bourbon install'
+    system 'cd lib && neat install'
   end
 end
