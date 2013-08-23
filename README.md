@@ -1,6 +1,6 @@
 # Gravity
 
-A modular SCSS framework.
+A set of modular SCSS components that can be used for building responsive websites.
 
 ## Modules
 
