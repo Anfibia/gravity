@@ -8,8 +8,8 @@ It gives you the essential components (grids, mixins, good default styles) witho
 
 Gravity uses bourbon for mixins and neat for grids
 
-http://bourbon.io/
-http://neat.bourbon.io/
++ http://bourbon.io/
++ http://neat.bourbon.io/
 
 ## Modules
 
