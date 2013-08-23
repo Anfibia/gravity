@@ -3,3 +3,4 @@
 .sass-cache
 views/all_elements.haml
 /compiled
+Gemfile.lock
