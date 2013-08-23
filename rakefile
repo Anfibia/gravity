@@ -1,0 +1,11 @@
+namespace :gravity do
+  task :update do |t|
+    system 'bourbon update'
+    system 'neat update'
+  end
+
+  task :install do |t|
+    system 'bourbon install'
+    system 'neat install'
+  end
+end
