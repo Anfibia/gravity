@@ -2,9 +2,10 @@
 
 A set of modular SCSS components that can be used for building responsive websites.
 
-Unlike bigger frameworks such as Bootstrap and Foundation, Gravity is very minimal. 
+Unlike bigger frameworks such as Bootstrap and Foundation, Gravity is very minimal.
 
-It gives you the essential components (grids, mixins, good default styles) without including a ton of stuff you don't need.
+It gives you the essential components (grids, mixins, good default styles) 
+without including a ton of stuff you don't need.
 
 Gravity uses bourbon for mixins and neat for grids
 
@@ -22,11 +23,12 @@ Gravity uses bourbon for mixins and neat for grids
 
 This framework requires Ruby.
 
-Installing required modules (bourbon and neat)
+The following task will install the dependencies (gems, build the assets).
+
+After this task has run all css should be available under /compiled/all.css
 
 ```
-bundle
-rake gravity:install
+rake gravity:build
 ```
 
 ## Updating
@@ -39,14 +41,11 @@ rake gravity:update
 
 ## Compile
 
-To watch and compile all SCSS files into CSS run the following command. It will create a file called all.css in compiled/all.css.
+To watch and compile all SCSS files into CSS run the following command. 
+
+It will create a file called all.css in compiled/all.css.
 
 ```
 ./compile
 ```
-
-
-
-
-
 

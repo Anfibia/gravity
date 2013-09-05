@@ -1,5 +1,11 @@
 namespace :gravity do
 
+  task :build do
+    system 'bundle'
+    Rake::Task["gravity:install"].execute
+    system './compile'
+  end
+
   task :update do |t|
     system 'cd lib && bourbon update'
     system 'cd lib && neat update'
