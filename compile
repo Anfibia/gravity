@@ -1,1 +1,1 @@
-sass --watch lib:compiled --style compressed
+sass --watch lib:compiled --style nested
